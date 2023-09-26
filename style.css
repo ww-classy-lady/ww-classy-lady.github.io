@@ -12,6 +12,11 @@
     text-transform: capitalize;
     padding-block: 20px;
 }
+.pic{
+    display:contents;
+    width:400px;
+    height: 800px;
+}
 .title{
     text-decoration: underline;
     background-color: beige;
