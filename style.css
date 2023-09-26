@@ -1,0 +1,22 @@
+.top-pic{
+    text-align: center;
+    font-size: medium;
+    font-family:monospace;
+    text-transform: capitalize;
+    padding-block: 20px;
+}
+.name{
+    text-align: center;
+    font-size: medium;
+    font-family:monospace;
+    text-transform: capitalize;
+    padding-block: 20px;
+}
+.basic-info{
+    margin-top: 50px;
+    text-align: center;
+    font-size: medium;
+    font-family:monospace;
+    text-transform: capitalize;
+    padding-block: 20px;
+}
