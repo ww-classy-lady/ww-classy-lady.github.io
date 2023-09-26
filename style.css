@@ -12,11 +12,32 @@
     text-transform: capitalize;
     padding-block: 20px;
 }
+.title{
+    text-decoration: underline;
+    background-color: beige;
+    text-transform: capitalize;
+    font-weight: bold;
+}
 .basic-info{
     margin-top: 50px;
     text-align: justify;
     font-size: medium;
     font-family:monospace;
-    text-transform: capitalize;
     padding-block: 20px;
+}
+.links{
+    font-weight:bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:rgb(5, 5, 243);
+}
+.link:hover{
+    color: aquamarine;
+}
+.und-Links{
+    color: blue;
+}
+.und-Links:hover{
+    color:aquamarine;
 }
