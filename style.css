@@ -13,9 +13,8 @@
     padding-block: 20px;
 }
 .pic{
-    display:contents;
-    width:400px;
-    height: 800px;
+    display:flex;
+    justify-content: center;
 }
 .title{
     text-decoration: underline;
