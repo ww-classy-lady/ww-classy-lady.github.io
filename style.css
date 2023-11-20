@@ -16,6 +16,21 @@
     display:flex;
     justify-content: center;
 }
+.pic img{
+    width: 160px;
+    height: auto;
+}
+.flyer{
+    display:flex;
+    justify-content: center;
+}
+.flyer img{
+    width: 100px;
+    height: auto;
+}
+.flyer p{
+    margin-left: 50px;
+}
 .title{
     text-decoration: underline;
     background-color: beige;
