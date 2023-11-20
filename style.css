@@ -25,11 +25,12 @@
     justify-content: center;
 }
 .flyer img{
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 .flyer p{
     margin-left: 50px;
+    margin-right: 50px;
 }
 .title{
     text-decoration: underline;
