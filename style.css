@@ -21,23 +21,24 @@
     height: auto;
 }
 .flyer{
-    display:flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
+
 }
 .flyer img{
     width: 300px;
     height: auto;
-}
-.flyer p{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .flyer td{
-    margin-left: 30px;
+    display:flex;
     text-align: left;
     border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .title{
     text-decoration: underline;
