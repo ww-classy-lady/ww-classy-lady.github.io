@@ -23,14 +23,19 @@
 .flyer{
     display:flex;
     justify-content: center;
+    margin-top: 10px;
 }
 .flyer img{
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 .flyer p{
     margin-left: 50px;
     margin-right: 50px;
+}
+.flyer td{
+    text-align: center;
+    border-collapse: collapse;
 }
 .title{
     text-decoration: underline;
