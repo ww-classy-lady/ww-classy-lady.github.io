@@ -26,13 +26,14 @@
 
 }
 .flyer img{
-    width: 300px;
+    width: 200px;
     height: auto;
+    margin-left: 20px;
     margin-right: 20px;
 }
 
 .flyer td{
-    display:flex;
+    display: flex;
     text-align: left;
     border-collapse: collapse;
     margin-top: 20px;
