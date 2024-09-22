@@ -1,7 +1,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    font-family:monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .welcome{
     text-align: center;
@@ -12,17 +12,48 @@ body{
     font-size: medium;
     padding: 20px;
 }
-.content {
+.profile-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.left-list, .right-list{
+    list-style-type: none;
+    color: rgb(19, 2, 63);
+    background-color: rgb(240, 240, 255);
+    text-align:center;
+    font-size: large;
+    width: 50%;
+    margin: 0;
+    padding: 20px;
+    flex: 1;
+    border: solid 5px seashell  ;
+    box-sizing: border-box;
+}
+.profile {
     justify-content: center;
     align-self: center;
-}
-.profile{
-    justify-content: center;
-    display: flex;
-}
-.profile img{
-    width: 160px;
+    margin: 0 20px;
+    width: 250px;
     height: auto;
+    border-radius: 10%;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-button {
+    padding: 10px;
+    color: rgb(24, 89, 228);
+    background-color: snow;
+    border: solid 2px rgb(203, 224, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px 0;
 }
 .section{
     text-decoration: underline;

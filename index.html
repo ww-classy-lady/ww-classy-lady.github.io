@@ -5,37 +5,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>Wendy's Personal Website</title>
+        <script src="script.js"></script>
     </head>
 <body>
     <div class="welcome">
         <h1>Wendy Wu</h1>
         <h3>Welcome to my personal page!</h3>
     </div>
-    <div class="profile">
-        <img src="https://github.com/ww-classy-lady/ww-classy-lady.github.io/blob/main/CartoonME%231.png?raw=true">
-    </div>
     <div class="basic-info">
         <label class="section">
             About Me:
         </label>
         <div class="about-me">
-            <ul>
-                <li><strong>WHO AM I:</strong> I am a Computer Science and Business Management student at Case Western Reserve University.</li>
-                <li><strong>SKILLS:</strong> I have the most experience in Python (scikit-learn/numpy/ML/AI work) & Java (OOP, classes, Interfaces).</li>
-                <li><strong>SWE Intern @ DICK'S Sporting Goods:</strong> I also have previous work experience as a Software Engineer Intern at DICK'S Sporting Goods (React Native, HTML, CSS, Spring, Kotlin, TypeScript).</li>
-                <li><strong>SEO Intern @ FORD:</strong> I have also worked as an Intern at Ford Motor Company using .NET, HTML, CSS to transform ASP to ASP.NET websites.</li>
-                <li><strong>MOTIVATED & LEARNER:</strong> I am a proactive learner and would love to collaborate with others who like to work fast pace to create amazing product and services that bring consumers value to their daily lives.</li>
-                <li><strong>DESIGNER:</strong> At school, I currently serve as the Media Design Chair of Case Engineers Council, where I design flyers + T-Shirts.</li>
-                <li><strong>GROUPS:</strong> I was also in Orchestra for 2 years and was an orientation leader on campus, helping new students familiarize CWRU and campus.</li>
-            </ul>
-            <p>
-                Connect with me on ->
-                <a href="https://www.linkedin.com/in/wendy-wu-449611215/" class="connect">LinkedIn</a>
-                GitHub Repo -> <a href="https://github.com/ww-classy-lady" class="connect">Github Repo</a>
-            </p>
+            <div class="profile-container">
+                <ul class="left-list">
+                    <li><strong>WHO AM I:</strong> Computer Science (BS/MS) and Business Management(Secondary major) student at Case Western Reserve University.</li><br/>
+                    <li><strong>SWE Intern @ DICK'S Sporting Goods:</strong> Pioneered a full-stack feature called Ratings and Reviews for Internal Android App using React Native, Spring, Kotlin, TypeScript. Connected endpoints for the API calls and axios on the backend and created react components to display relevant summary, user feedback, and star ratings on the frontend. Deployed feature to 21 pilot stores.</li><br/>
+                    <li><strong>SEO Intern @ FORD:</strong> Modernized ASP to ASP.NET websites using ASP .NET MVC, HTML, CSS for internal web application used by Ford's technicians to diagnose vehicles.</li><br/>
+                </ul>
+                <img src="https://github.com/ww-classy-lady/ww-classy-lady.github.io/blob/main/CartoonME%231.png?raw=true" class="profile" alt="profile picture">
+                <ul class="right-list">
+                    <li><strong>SKILLS:</strong> Mostly Python (scikit-learn/numpy/ML/AI work) & Java (OOP, classes, Interfaces). Flexible to work in full-stack, frontend, backend, networking, ML/AI project teams.</li><br/>
+                    <li><strong>MOTIVATED & LEARNER:</strong> Proactive learner who thrive in a produtive and direct feedback environment. Aspire to collaborate with tech-savvy engineers to create amazing products and services that bring value to users' experience.</li><br/>
+                    <li><strong>DESIGNER:</strong> Serve as the Media Design Chair of Case Engineers Council, where I design flyers + T-Shirts.</li><br/>
+                    <li><strong>GROUPS:</strong> Performed as a violinst in CUSCO Orchestra for 2 years and was an orientation leader on campus, helping new students familiarize CWRU and campus.</li><br/>
+                </ul>
+            </div>
+            <div class="button-container">
+                <button class="social-button" onclick="goToLinkedIn()">LinkedIn</button>
+            </div>
         </div>
-        <label class="section">Projects:</label>
         <div class="projects">
+            <label class="section">Projects:</label>
             <div class="gallery">
                 <div class="preview">
                     <a href="https://family-recipe-collection-e5283.firebaseapp.com/" class="und-Links" target="_blank">Family Recipe Collection (Vue/FireBase Web App)</a>
