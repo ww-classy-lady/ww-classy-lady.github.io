@@ -1,64 +1,62 @@
-.top-pic{
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family:monospace;
+}
+.welcome{
     text-align: center;
     font-size: medium;
-    font-family:monospace;
     text-transform: capitalize;
-    padding-block: 20px;
 }
-.name{
-    text-align: center;
+.basic-info{
     font-size: medium;
-    font-family:monospace;
-    text-transform: capitalize;
-    padding-block: 20px;
+    padding: 20px;
 }
-.pic{
-    display:flex;
+.content {
     justify-content: center;
+    align-self: center;
 }
-.pic img{
+.profile{
+    justify-content: center;
+    display: flex;
+}
+.profile img{
     width: 160px;
     height: auto;
 }
-.flyer{
-    justify-content: center;
-    margin-top: 20px;
-
-}
-.flyer img{
-    width: 250px;
-    height: auto;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.flyer td{
-    display: flex;
-    text-align: left;
-    border-collapse: collapse;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.title{
+.section{
     text-decoration: underline;
     background-color: beige;
     text-transform: capitalize;
     font-weight: bold;
 }
-.basic-info{
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align:justify;
-    font-size: medium;
-    font-family:monospace;
-    padding-block: 20px;
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 30px;
+}
+.preview {
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 300px;
 }
 .und-Links{
     color: blue;
+    display: block;
+    text-align: center;
 }
 .und-Links:hover{
     color:aquamarine;
+}
+iframe, .app-preview{
+    width:100%;
+    height:100%;
+    border:none;
+}
+.finalMessage {
+    text-align: center; 
+    text-decoration: underline; 
+    font-weight: bolder;
+    padding: 20px;
 }
